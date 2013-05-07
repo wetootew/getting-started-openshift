@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'json'
 
-get '/cities.json' do
+get '/' do
     content_type :json
-    return {:cities=> ["Amsterdam", "San Francisco", "Berlin", "New York", "Tokyo", "London"]}.to_json
+    return {:clouds=> ["Altocumulus ", "Altostratus", "Cumulonimbus", "Nimbostratus", "Cirrocumulus", "Stratus"]}.to_json
 end
