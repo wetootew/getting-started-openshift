@@ -1,8 +1,8 @@
   require 'spec_helper'
 
-  describe "City API" do
+  describe "Cloud API" do
     it "should respond to GET" do
-      get '/cities.json'
+      get '/'
       last_response.should be_ok
     end
   end
