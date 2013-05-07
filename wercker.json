@@ -1,0 +1,6 @@
+{
+    "custom steps" :
+    {
+        "rspec" : ["bundle exec rspec"]
+    }
+}
